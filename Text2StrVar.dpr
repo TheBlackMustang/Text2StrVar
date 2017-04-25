@@ -32,7 +32,7 @@ begin
       end;
     end;
     InList.Insert(0, 'const');
-    InList.Insert(1, '  S :=');
+    InList.Insert(1, '  S =');
     InList.SaveToFile(FilenameOutput);
     Writeln('Use this directive {$I <FilenameOutput>} for adding this string in a project or use "copy-paste" into your code.');
   finally
